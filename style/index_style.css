@@ -1,7 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: helvetica;
+	 font-family: 'Poiret One', cursive;
 }
 
 h2,h1{font-weight: 600;padding: 10px 0}
@@ -18,7 +18,8 @@ p{
 
 a,
 a:hover{
-	color:white;
+	color: black;
+	font-family: 'Poiret One', cursive;	
 }
 
 b{font-weight: 700}
@@ -26,16 +27,23 @@ b{font-weight: 700}
 
 section#banner{
 	width: 100%;
-    background-image: url(../pictures/fondo.jpg);
+    background-image: url(../pictures/hero-image.jpg);
     background-attachment: fixed;
     /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.frase-banner{    
+	text-align: center;
+    padding-top: 30em;
+}
 
-
-
+.frase-banner  p {
+   font-size: 3em;
+   color: rgb(58, 59, 61);
+   background: rgba(255, 255, 255, 0.31);
+}
 
 header{
 	position: fixed;
@@ -67,8 +75,7 @@ ul li{
 }
 
 ul li:hover{
-	background-color: black;
-	box-shadow: 1px 1px 10px white;
+	background-color:255, 255, 255, 0.31 ;
 	border-radius: 2px;
 	
 	font-weight: 100px;
@@ -81,13 +88,21 @@ ul li a{
 }
 
 img#logo{
+	width: 300px;
+	height: 300px;
 	float:left;
 	display: block;
 	margin-left: 30px;
 	margin-right: 30px;
-	margin-top: 150px;
+	margin-top: 100px;
 	-webkit-transition: width .5s, height .5s, margin-right .5s, margin-top .5s;
 }
+
+/*.prueba{
+	background-color: black;
+	width: 20px;
+	height: 20px;
+}*/
 
 .decoracion{
     width: 50%;

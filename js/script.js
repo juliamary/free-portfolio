@@ -10,14 +10,14 @@ $(document).ready(function(){
 
 		if(scroll > 200){
 			if(!flag){
-				$("#logo").css({"margin-top": "-5px", "width": "400px","height":"90px"});
+				$("#logo").css({"margin-top": "-5px", "width": "140px","height":"90px"});
 
-				$("header").css({"background-color": "black"});
+				$("header").css({"background-color": "rgba(255, 221, 5, 0.41"});
 				flag = true;
 			}
 		}else{
 			if(flag){
-				$("#logo").css({"margin-top": "250px", "width": "700","height":"150px"});
+				$("#logo").css({"margin-top": "90px", "width": "300","height":"300px"});
 
 				$("header").css({"background-color": "transparent"});
 				flag = false;
