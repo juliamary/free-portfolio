@@ -10,9 +10,9 @@ $(document).ready(function(){
 
 		if(scroll > 200){
 			if(!flag){
-				$("#logo").css({"margin-top": "-5px", "width": "140px","height":"90px"});
+				$("#logo").css({"margin-top": "-5px", "width": "148px","height":"130px"});
 
-				$("header").css({"background-color": "rgba(255, 221, 5, 0.41"});
+				$("header").css({"background-color": "rgb(161, 202, 138)"});
 				flag = true;
 			}
 		}else{

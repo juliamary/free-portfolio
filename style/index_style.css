@@ -123,6 +123,9 @@ img#logo{
   box-shadow: 1px 1px 23px black
 }
 
+.parrafo{
+	margin:3px;
+}
 .mensajes{
 	
 	width: 100%;
@@ -177,7 +180,7 @@ section.module h2 {
 }
 
 footer{
-	background-color: black;
+	background-color: #292526;
 	color:white;
 	padding: 20px;
 	width: 100%;
