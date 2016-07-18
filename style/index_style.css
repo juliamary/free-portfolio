@@ -124,7 +124,10 @@ img#logo{
 }
 
 .parrafo{
-	margin:3px;
+	padding: 0 90px;
+    font-size: x-large;
+    font-weight: 600;
+    color: darkcyan;
 }
 .mensajes{
 	
